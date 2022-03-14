@@ -33,7 +33,7 @@ int main(void)
 							if (h == 57 && e == 57 && i == 57 && g  == 56)
 								break;
 						putchar(',');
-						putchar(',');
+						putchar(' ');
 					}
 					i++;
 				}
