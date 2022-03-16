@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isolwer - returns 1 if lowercase 0 otherwise
+ * _isolwer - returns 1 if lowercase alphabet 0 otherwise
  *@c: takes in a character
  * Return:0 for uppercase,1 fo lowercase
  */
