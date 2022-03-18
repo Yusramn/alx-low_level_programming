@@ -3,7 +3,7 @@
 
 /**
  * -isdigit - a fuction that checks for a digit(0 through 9).
- * @c - input
+ * @c: input
  * Return: Always 0.
  */
 
