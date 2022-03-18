@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _isupper - retun 1 if c is uppercase,return 0 other wise.
- *@c - input function
- * Return: int.
+ *@c - print int
+ * Return: Always 0.
  */
 
 int _isupper(int c);
