@@ -1,8 +1,10 @@
-#include"main.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
- * main - functions that multipliesm two integers.
- * @a - the first input function.
- * @b - the second input functions.
+ * mul - functions that multipliesm two integers.
+ * @a:  the first input function.
+ * @b: the second input functions.
  * Return: int.
  */
 int mul(int a, int b);
