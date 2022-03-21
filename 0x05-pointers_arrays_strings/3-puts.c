@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * _puts - print a string
- * @str: pointer to the sring
- * Return: string
+ * _puts - print a string,followed by new line
+ * @str: pointer to the sring to print
+ * Return: void
  */
+
 void _puts(char *str);
 {
 	int i = 0;
@@ -11,7 +13,7 @@ void _puts(char *str);
 	while (str[i])
 	{
 		_putchar(str[i]);
-		i++
+		i++;
 	}
 	_putchar('\n');
 }
