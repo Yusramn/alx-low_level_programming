@@ -4,8 +4,7 @@
  * @s: pointer to char
  * Return: char.
  */
-
-char *leet(char *s) 
+char *leet(char *s)
 {
 	int i = 0;
 	int j = 0;
