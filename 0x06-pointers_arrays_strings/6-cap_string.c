@@ -1,10 +1,10 @@
-nclude "main.h"
+include "main.h"
 /**
  * cap_string - function that capitalizes all words of a string
  * @s: pointers to char
  * Return: char.
  */
- char *cap_string(char *s)
+char *cap_string(char *s)
 {
 	int i = 0;
 
@@ -16,9 +16,9 @@ nclude "main.h"
 			i++;
 		}
 		if (*(s + i) == ' ' || *(s + i) == '\n' || *(s + i) == '\t'
-				|| *(s + i) == ','|| *(s + i) == ';' || *(s + i) == '!'
+				|| *(s + i) == ',' || *(s + i) == ';' || *(s + i) == '!'
 				|| *(s + i) == '?' || *(s + i) == '"' || *(s + i) == '('
-				|| *(s + i) == ')' || *(s + i) == '{' || *(s + i)== '}'
+				|| *(s + i) == ')' || *(s + i) == '{' || *(s + i) == '}'
 				|| *(s + i) == '.'
 				{
 				i++;
