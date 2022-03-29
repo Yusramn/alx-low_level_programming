@@ -18,18 +18,16 @@ unsigned int _strspn(char *s, char *accept)
 		flag = 0;
 		while (*(accept + j) !=  '\0')
 		{
-	
 			if (*s == *(accept + j))
-	
 				flag = 1;
 
 			j += 1;
 		}
 		j = 0;
-	       	if (flag == 0)
-		       break;
-	       cont += 1;
-	       s++;
+		if (flag == 0)
+		 	break;
+		cont += 1;
+		s++;
 	}
 	return (cont);
 }
