@@ -3,6 +3,8 @@
 /**
  * is_prime_number - returns 1 if the input integer is a prime number
  * otherwise return 0
+ *  getNumPrim - function that gets if num is 0 or 1
+
  * @n: input number
  *
  * Return: int
