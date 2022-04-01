@@ -1,33 +1,33 @@
 #include "main.h"
 
 /**
- * _strspn - function that gets the length of a prefux substring.
- *
- * @s: initial segment
- * @accept: bytes  to check
- * Return: unsigned int
+ * _strspn -function is used for to gets the length of
+ * a prfix substring.
+ * @s: source string
+ * @accept: accept string
+ * Return: the postion of last element
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int cont = 0;
-	int j = 0;
-	int flag;
+	int i, j, n;
+	int c = 0;
 
-	while (*s != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		flag = 0;
-		while (*(accept + j) !=  '\0')
+		n = 0;
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (*s == *(accept + j))
-				flag = 1;
-
-			j += 1;
+			if (s[i] == accept[j])
+			{
+				c++;
+				n = n + 1;
+			}
 		}
-		j = 0;
-		if (flag == 0)
-		 	break;
-		cont += 1;
-		s++;
+		if (n == 0)
+		{
+			return (c);
+		}
 	}
-	return (cont);
+	return (0);
 }
